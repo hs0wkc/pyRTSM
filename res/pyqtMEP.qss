@@ -1,0 +1,60 @@
+/* QFrame,QDialog,QMainWindow,QTabWidget,QWidget {
+    background:#474747}
+QSplitter,QMainWindow::separator {
+    background:#474747}
+QStatusBar {
+    background:#474747;
+    color:#ccc}
+QTabBar {
+    background:#474747;
+    color:#ccc}
+QPushButton {
+    color:#e6e6e6;background:#555;
+    border-color:#141414}
+QLabel,QRadioButton,QCheckBox {
+    color:#e6e6e6}
+QLineEdit,QTextEdit,QPlainTextEdit,QComboBox {
+    color:#e6e6e6;
+    background:#5a5a5a}
+QSpinBox,QDoubleSpinBox {
+    height: 22px;
+    color:#e6e6e6;
+    background:#5a5a5a} */
+    
+
+QGroupBox {
+    font: 12px bold;
+    border: 1px solid grey;
+    border-radius: 6px;
+    margin-top: 8px;}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0px 5px 0px 5px;}
+QGroupBox#Cooling_Load::title {
+    left: 13px;
+    color: #0073ad;}
+QLineEdit[readOnly="true"] {
+    /* border: 2px solid gray; */
+    border-radius: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 1px;
+    margin-right: 1px;
+    /* margin: 1px; */
+    /* padding: 0 12px; */
+    /* background: yellow; */
+    /* selection-background-color: darkgray; */}
+QPlainTextEdit {
+    background:gray;
+    border-radius: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 1px;
+    margin-right: 1px;}
+QTabBar::tab:selected {
+    color: #70ad00;
+    font-size: 13px;
+    font-weight: bold;}
+QTabBar::tab:hover {
+    color: #70ad00;}
