@@ -1816,7 +1816,7 @@ class Mainwindow(QMainWindow):
                 "24 h prior, which is the same as 48 h prior, etc.<br>"
                 "This assumption is the basis for the RTS derivation from the HB method.<br><br>"
                 "For more information: <b>ASHRAE Handbook - Fundamentals, SI Edition</b><br>"
-                "Copyright © 2011-2025 (\xa9) <a href='mailto:euttanal@betagro.com/'>L.Euttana</a>"
+                "Copyright © 2011-2025 (\xa9) <a href='mailto:hs0wkc@hotmail.com/'>L.Euttana</a>"
                 ", <a href='https://github.com/hs0wkc/pyRTSM'>GitHub</a>"
                 ", <a href='https://www.youtube.com/channel/UCh8nxggUtig4fX6qfsIIdvA'>Youtube</a><br><br>"
                 )
