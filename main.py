@@ -675,6 +675,7 @@ class Mainwindow(QMainWindow):
         self.btnRTSMSave .setFixedWidth(62)
         calculateLayout.addWidget(self.btnRTSMSave, 5, 1, 1, 2)
         self.btnAbout = QPushButton('About')
+        self.btnAbout.setFixedSize(145, 24)
         calculateLayout.addWidget(self.btnAbout, 6, 0, 1, 3)
 		# endregion
 
@@ -925,7 +926,6 @@ class Mainwindow(QMainWindow):
         self.cmbRTSMActivity.currentIndexChanged.emit(0)
         self.cmbRTSMVentilation.currentIndexChanged.emit(0)
         self.cmbRTSMEquipment.setCurrentText(default_eqp)
-		# endregion
 
         self.setCentralWidget(self.widget)
         self.setFixedWidth(600)
@@ -1808,8 +1808,7 @@ class Mainwindow(QMainWindow):
                 ('OutUnit', self.cmbRTSMOutUnit.currentIndex()),
                 ])
             file.write( json.dumps( data, indent=4 ) )
-    # endregion
-
+ 
     def About(self):
         QMessageBox.about(self, "Radiant Time Series (RTS) method Cooling Load",
                 "Design cooling loads are based on the assumption of <b>steady-periodic conditions</b><br>"
@@ -1818,7 +1817,7 @@ class Mainwindow(QMainWindow):
                 "This assumption is the basis for the RTS derivation from the HB method.<br><br>"
                 "For more information: <b>ASHRAE Handbook - Fundamentals, SI Edition</b><br>"
                 "Copyright © 2011-2025 (\xa9) <a href='mailto:euttanal@betagro.com/'>L.Euttana</a>"
-                ", <a href='https://github.com/hs0wkc'>GitHub</a>"
+                ", <a href='https://github.com/hs0wkc/pyRTSM'>GitHub</a>"
                 ", <a href='https://www.youtube.com/channel/UCh8nxggUtig4fX6qfsIIdvA'>Youtube</a><br><br>"
                 )
 
