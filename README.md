@@ -2,4 +2,4 @@
 
 <h3>Demonstration</h3>
 
-![Intro](res/demo.gif)
+![Intro](res/demo.gif){width=80%}
