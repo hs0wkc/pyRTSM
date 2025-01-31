@@ -2,7 +2,7 @@
 
 Required Package:<br>
     pyMEP <https://test.pypi.org/project/pyMEP/><br>
-    following two commands to install it<br>
+    following this commands to install it<br>
 
     pip install -i https://test.pypi.org/simple/ pyMEP
 
